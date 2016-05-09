@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('/assets/fonts/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('/assets/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+//Variables
+$font-light: 'Open Sans Light', sans-serif;
+$font-light-regular: 'Open Sans', sans-serif;
+$font-light-bold: 'Open Sans Bold', sans-serif;
+
+$primary-text-color: #333;
+$secondary-text-color: #5B5A5B;
+$link-text-color: #9E3667;
+
+//Heading Size
+$heading-s: 1.125em;
+$heading-m: 1.250em;
+$heading-l: 1.5em;
+$heading-xl: 1.750em;
+$heading-xxl: 2em;
+$heading-xxxl: 2.5em;

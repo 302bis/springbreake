@@ -1,0 +1,9 @@
+<div layout="vertical" layout-fill>
+  <md-content>
+      <h2>Formulario Datos Beneficiarios</h2>
+              <article>
+                                
+				<md-button ui-sref="agregar-datos" class="md-raised">Volver a pantalla de opciones</md-button>
+              </article>
+  </md-content>
+</div>

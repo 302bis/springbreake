@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'fonts';
+@import 'custom';
+
+html {
+  font-family: $font-light-regular, serif;
+}
+
+.container{
+  width: $desktop;  
+}
