@@ -8,3 +8,4 @@
     .constant('moment', moment);
 
 })();
+
