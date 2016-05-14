@@ -1,0 +1,132 @@
+{
+  "beneficios":{
+    "id": "beneficios",
+    "title": "Genera tu nueva cuenta desde el celular y disfruta de sus beneficios al instante",
+    "item1": "Realiza depósitos de hasta 15 mil pesos",
+    "item2": "Retiros en cadenas afiliadas a Santander y cajeros automáticos",
+    "item3": "Paga tus servicios y realiza transferencias",
+    "item4": "Usa tu credencial de la universidad como tarjeta",
+    "item5": "tes",
+    "item6": ""
+  },
+  "condiciones":{
+    "id": "condiciones",
+    "title": "Condiciones de contratación",
+    "item1": "Ser mayor de edad",
+    "item2": "Ser residente mexicano",
+    "item3": "INE o Pasaporte",
+    "item4": "Una cuenta de email activa",
+    "item5": "Tu tarjeta credencial de la universidad",
+    "item6": ""
+  },
+  "avisoPrivacidad":{
+    "id": "avisoPrivacidad",
+    "title": "Aviso de privacidad",
+    "item1": "Texto largo de aviso de privacidad",
+    "item2": ""
+  },
+  "ingresarTelefono":{
+    "id": "ingresarTelefono",
+    "title": "¿Cómo te contactamos?",
+    "subtitle": "Proporcionanos tus datos de contacto, así podrás recibir notificaciones y alerta acerca de tu cuenta y tarjeta",
+    "labelTelefono": "Te enviaremos un código de verificación por SMS",
+    "labelEmail": "Te enviaremos un código de verificación por SMS",
+    "labelEmailConf": "Te enviaremos un código de verificación por SMS",
+    "ayudaTelefono": "Te enviaremos un código de verificación por SMS",
+    "confirmarEmail": "Recibirás un correo de confirmación una vez abierta tu cuenta",
+    "item6": ""
+  },
+  "ingresarCodigo":{
+    "id": "ingresarCodigo",
+    "title": "Ingresar código de confirmación",
+    "subtitle": "Por favor ingresa el código que te hemos enviado por SMS",
+    "reEnviar": "Re-enviar código",
+    "labelConf": "Código de confirmación",
+    "item6": ""
+  },
+  "reenviarCodigo":{
+    "id": "reenviarCodigo",
+    "title": "¿Deseas re enviar el código de confirmación?",
+    "footer": "Recibirás un código de confirmación por SMS",
+    "item6": ""
+  },
+  "seleccionarCredencial":{
+    "id": "seleccionarCredencial",
+    "title": "Cuéntanos sobre ti",
+    "subtitle": "El registro de tu nueva cuenta necesita que nos proporciones cierca información sobre ti",
+    "subtitle2": "Para poder identificarte, ayúdanos eligiendo un tipo de credencial, puede ser INE ó pasaporte",
+    "btnINE": "Usar mi INE",
+    "btnPasaporte": "Usar mi pasaporte",
+    "footer": "Te recordamos que tus datos permanecen protegidos por nuestra política de privacidad",
+    "item6": ""
+  },
+  "subirINE":{
+    "id": "subirINE",
+    "frontInput":"Seleccionar frente",
+    "backInput":"Seleccionar reverso",
+    "item6": ""
+  },
+  "subirPasaporte":{
+    "id": "subirPasaporte",
+    "Input":"Seleccionar imagen",
+    "item6": ""
+  },
+  "dataPersona":{
+    "id": "dataPersona",
+    "subtitle": "Además de tu identificación, vamos a requerir que nos ayudes completando la siguiente información.",
+    "nombre": "Nombre(s)",
+    "paterno": "Apellido paterno",
+    "materno": "Apellido materno",
+    "nacimiento": "Fecha de nacimiento",
+    "materno": "Entidad de nacimiento",
+    "item6": ""
+  },
+  "direccionPersona":{
+    "id": "direccionPersona",
+    "subtitle": "Además de tu identificación, vamos a requerir que nos ayudes completando la siguiente información.",
+    "calle": "calle",
+    "numeroExterior": "Núm. exterior",
+    "numeroInterior": "Núm. interior",
+    "codigoPostal": "Código Postal",
+    "codigoAyuda":"El resto de tu domicilio se autocompletará al registrar tu código postal.",
+    "numeroExterior": "Núm. exterior",
+    "municipio": "Delegación / municipio",
+    "ciudad": "Ciudad",
+    "estado": "Estado",
+    "item6": ""
+  },
+  "registroTarjeta":{
+    "id": "registroTarjeta",
+    "title": "Ingresa el número de tu tarjeta",
+    "subtitle": "Vamos a usar el numero que aparece al frente de tu tarjeta para vincularla a tu nueva cuenta",
+    "NumeroTarjeta": "Número de tarjeta (16 dígitos)",
+    "ayudaTarjeta": "Asegúrate de tener a la mano tu tarjeta TUI",
+    "linkTarjeta": "No tengo tarjeta",
+    "valida":"Formato incorrecto",
+    "item6": ""
+  },
+  "espera":{
+    "id": "pantallaEspera",
+    "title": "Danos unos segundos, estamos procesando tu información",
+    "subtitle": "Esta pantalla se cerrará de forma automática cuando el proceso termine",
+    "item6": ""
+  },
+  "contrato":{
+    "id": "contrato",
+    "title": "Contrato de aceptación",
+    "subtitle": "En esta pantalla aparecerá el contrato el cual el cliente debe aceptar obligatoriamente",
+    "item6": ""
+  },
+  "error":{
+    "id": "pantallaError",
+    "title": "ERROR!",
+    "subtitle": "Pantalla genérica de error. <br>En esta pantalla se describe el error ocurrido.",
+    "item6": ""
+  },
+  "notification":{
+    "id": "notificacion",
+    "title": "NOTIFICACIÓN",
+    "subtitle": "Pantalla genérica de notificación",
+    "item6": ""
+  }
+}

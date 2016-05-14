@@ -1,21 +1,20 @@
 <div layout-gt-xs layout-align="center">
     <md-content>
-        <header>
-            <acme-navbar></acme-navbar>
+        <header flex layout="row" layout-align="left center">
+            <clean-bar></clean-bar>
         </header>
-        <br>
+      <md-button ui-sref=".personales" class="md-fab md-raised md-primary"  >uno</md-button>
+      <md-button ui-sref=".geograficos" class="md-fab md-raised">dos</md-button>
+      <md-button ui-sref=".beneficiario" class="md-fab md-raised">tres</md-button>
+
         <h1>Completa tus datos</h1>
-        <br>
-        <section flex layout="row" layout-align="left center">
-            <md-button ui-sref=".personales" class="md-raised">Datos generales</md-button>
-            <md-button ui-sref=".geograficos" class="md-raised">Datos geográficos</md-button>
-            <md-button ui-sref=".beneficiario" class="md-raised">Datos del beneficiario</md-button>
-        </section>
-            
+        <!--<md-button ui-sref=".personales" class="md-fab md-raised md-primary" flex="100"  >Datos generales</md-button>
+          <md-button ui-sref=".geograficos" class="md-raised">Datos geográficos</md-button>
+          <md-button ui-sref=".beneficiario" class="md-raised">Datos del beneficiario</md-button>-->
         <section>
             <div ui-view=""></div>
         </section>
-	
+
 <footer>
 <md-button ui-sref="home" class="md-raised">Home</md-button>
 			<md-button ui-sref="main.agregar-credencial" class="md-raised">Paso anterior</md-button>

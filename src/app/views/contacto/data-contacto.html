@@ -1,16 +1,41 @@
-<div layout-gt-xs layout-align="center">
-    <md-content>
-        <h1>Ingresar teléfono e email</h1>
-        <br>
-        <section flex layout="row" layout-align="left center">
-            
+        <section class="content" flex layout="column" layout-align="left center">
+          <header>
+            <h3>¿Cómo te contactamos?</h3>
+            <small>Proporcionanos tus datosde contacto, así podrás recibir notficaciones y alertas acerca de tu cuenta y tarjeta</small>
+            <div class="clear"></div>
+          </header>
+            <form>
+                      <md-input-container class="md-block" flex-gt-sm>
+                        <label>Teléfono</label>
+                        <input id='telefono' type='tel' required name="telefono" ng-model="telefono" />
+                        <small>Te enviaremos un código de verificación por SMS</small>
+                        <div ng-messages="projectForm.telefono.$error">
+                          <div ng-message="required">Campo obligatorio.</div>
+                        </div>
+
+                      </md-input-container>
+                      <md-input-container class="md-block" flex-gt-sm>
+                        <label>Email</label>
+                        <input id="email" type='email' name="email" ng-model="email"/>
+                      </md-input-container>
+                      <md-input-container class="md-block" flex-gt-sm>
+                        <label>Confirmación de email</label>
+                        <input id="repetir-email" type='email' name="repetir-email" ng-model="repetir-email"/>
+                          <small>Recibirás un correo de confirmación, una vez abierta tu cuenta</small>
+                      </md-input-container>
+
+                                {{ PostDataResponse[0].persona }}
+                                <br>
+                                {{ PostDataResponse }}
+                                <md-button class="md-raised">Guardar</md-butaton>
+                </form>
+
+
         </section>
-            
+
         <footer>
           <md-button ui-sref="home" class="md-raised">Home</md-button>
           <md-button ui-sref="main.aviso-de-privacidad" class="md-raised">Paso anterior</md-button>
           <md-button ui-sref="main.ingresa-codigo" class="md-raised">Paso siguiente</md-button>
         </footer>
     </md-content>
-
-</div>

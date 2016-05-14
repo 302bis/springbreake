@@ -3,7 +3,7 @@
 
   angular
     .module('app2')
-    .directive('topNavbar', topNavbar);
+    .directive('cleanBar', cleanBar);
 
   /** @ngInject */
   function topNavbar() {

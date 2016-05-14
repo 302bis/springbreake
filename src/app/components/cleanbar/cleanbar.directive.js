@@ -3,25 +3,23 @@
 
   angular
     .module('app2')
-    .directive('topNavbar', topNavbar);
+    .directive('cleanBar', cleanBar);
 
   /** @ngInject */
-  function topNavbar() {
+  function cleanBar() {
     var directive = {
       restrict: 'E',
-      templateUrl: 'app/components/navbar/navbar.html',
+      templateUrl: 'app/components/cleanbar/cleanbar.html',
       scope: {
           creationDate: '='
       },
-      controller: NavbarController,
-      controllerAs: 'vm',
-      bindToController: true
+      controller: CleanbarController
     };
 
     return directive;
 
     /** @ngInject */
-    function NavbarController(moment) {
+    function CleanbarController(moment) {
       var vm = this;
 
       // "vm.creationDate" is available by directive option "bindToController: true"

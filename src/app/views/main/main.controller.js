@@ -13,4 +13,13 @@
       vm.classAnimation = '';
     }
   }
+
+  function MainController($scope, $http){
+    $http.get('assets/data/content.json').success(function(data) {
+      $scope.content = data;
+    });
+  }
+
+
 })();
+
