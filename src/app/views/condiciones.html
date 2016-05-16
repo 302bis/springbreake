@@ -1,34 +1,43 @@
-        <section flex layout="column" layout-gt-xs layout-align="center center">
-            <md-card>
-                <md-card-title>
-                  <md-card-title-text>
-                    <span class="md-headline">Condiciones de contratación</span>
-                  </md-card-title-text>
-                </md-card-title>
-                <md-card-content>
-                  <ul>
-                    <li>Ser mayor de edad </li>
-                    <li>Ser residente mexicano</li>
-                  </ul>
-                  <hr>
-                  <ul>
-                    <li>INE o Pasaporte</li>
-                    <li>Una cuenta de email activa </li>
-                    <li>Tu tarjeta credencial de la universidad</li>
-                  </ul>
-                <hr>
-                <p>Al iniciar el contrato, estarás aceptando nuestra <a href="#">Politica de privacidad</a></p>
+<top-navbar></top-navbar>
 
-                </md-card-content>
-                <md-card-actions layout="row" layout-align="end center">
-                 <md-button ui-sref="main.condiciones" class="md-raised">Contratar</md-button>
-                </md-card-actions>
-              </md-card>
-      <md-card>
-        </section>
+<section flex layout="column" layout-gt-xs layout-align="center center">
+    <md-card>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">{{ content.condiciones.title}}</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <ul>
+                <li>{{ content.condiciones.item1 }}</li>
+                <li>{{ content.condiciones.item2 }}</li>
+            </ul>
+            <hr>
+            <ul>
+                <li>{{ content.condiciones.item3 }}</li>
+                <li>{{ content.condiciones.item4 }}</li>
+                <li>{{ content.condiciones.item5 }}</li>
+            </ul>
+            <hr>
+            <p>{{ content.condiciones.item6 }} <a href="#">Politica de privacidad</a></p>
 
-            <footer>
-                <md-button ui-sref="home" class="md-raised">Home</md-button>
-                <md-button ui-sref="main.beneficios" class="md-raised">Paso anterior</md-button>
-                            <md-button ui-sref="main.aviso-de-privacidad" class="md-raised">Paso siguiente</md-button>
-            </footer>
+        </md-card-content>
+        <md-card-actions layout="column" layout-align="center center">
+            <md-button ui-sref="main.condiciones" class="md-raised" >Contratar</md-button>
+        </md-card-actions>        
+    </md-card>
+    <md-card>
+</section>
+
+<footer>
+    <md-button ui-sref="home" class="md-icon-button">
+        <md-icon md-svg-src="assets/images/icons/home.svg"></md-icon>
+    </md-button>
+    
+    <md-button ui-sref="main.beneficios" class="md-icon-button">
+        <md-icon md-svg-src="assets/images/icons/ic-l.svg"></md-icon>
+    </md-button>
+    <md-button ui-sref="main.aviso-de-privacidad" class="md-icon-button">
+        <md-icon md-svg-src="assets/images/icons/ic-r.svg"></md-icon>
+    </md-button>
+</footer>
